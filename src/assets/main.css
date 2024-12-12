@@ -1,0 +1,19 @@
+@import './base.css';
+
+  body {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+
+  #app {
+    width: 70%;
+    height: 40rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0.5rem 0.5rem 0.6rem rgb(0,0,0,0.5);
+
+  }
